@@ -1,0 +1,293 @@
+/*
+Theme Name: Car dealer theme
+Text Domain: OscarCastillejo
+Description: A clean theme based on a car dealer website.
+Version: 1.0
+Author: Oscar Castillejo
+Author URI: https://oscto1.github.io/
+*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+html,body{
+  margin:0;
+  height: 100%;
+  min-height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
+}
+h2{
+  font-weight: 600;
+}
+u{
+  text-decoration: none;
+}
+div.custom-menu-class ul {
+    list-style-type: none;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+a:hover{
+  text-decoration: none;
+  color: black;
+}
+.topnav> *{
+  border: 0px;
+}
+.topnav {
+  overflow: hidden;
+  background-color: white;
+  border-left: 15px solid white;
+}
+.activen{
+  background-color: #f5ba09;
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: rgb(20,20,20);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a.active {
+  background-color: white;
+  color: rgb(20,20,20);
+}
+.topnav .icon {
+  display: none;
+}
+
+.cont-left {
+  margin-left: 3rem;
+}
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+  .cont-left {
+    margin-left: 1rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+.topnav.responsive{
+  transition: 0.3s ease;
+}
+
+.navit{
+  border-radius: 0 0 10px 10px;
+  margin-right: 10px;
+}
+.navit:hover{
+  background-color: #ddd;
+}
+.fa{
+  color: #f5ba09;
+}
+#logo{
+  font-weight: bold;
+  margin-right: 30px;
+}
+.main_content{
+  width: 100%;
+}
+#cta_main{
+  border: 3px solid rgb(20,20,20);
+  width: 200px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 30px;
+  text-align:center;
+  margin-top: 30px;
+}
+#cta_main:hover{
+  background-color: rgb(20,20,20);
+  color: white;
+  transition: 0.3s ease;
+}
+.main-content{
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    justify-content: center;
+    align-content: center;
+    word-wrap: break-word;
+    align-content: center;
+    flex-direction: column;
+}
+#empty_con{
+  flex-direction: column;
+  margin-top: 50px;
+}
+#im-empt{
+  max-height: 6rem;
+}
+#text, #text1{
+  text-align:center;
+  font-size: 2.5rem;
+}
+#text3{
+  text-align:center;
+  margin-top: 15px;
+  font-size: 1rem;
+  color: #8e8f91;
+}
+.img_main{
+  max-width: 50vw;
+}
+.btn_cars{
+  position: relative;
+  bottom:0px;
+}
+.tec_item img{
+  height: 80%;
+  max-width: 80%;
+  margin-bottom: 5px;
+}
+.tec_item:hover{
+  background: rgb(235,235,235);
+  cursor: pointer;
+}
+.tec_item{
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  background: rgb(241,241,241);
+  height: 120px;
+  margin: 6px;
+  margin-bottom: 5px;
+  font-size: small;
+  border-radius: 15px;
+  padding: 10px;
+  padding-bottom: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.tec_item *{
+  text-decoration: none;
+}
+.splide__pagination__page{
+  /* display: none; */
+}
+.actn{
+  border: solid 6px #f5ba09;
+}
+.splide__arrow--prev{
+    left: -1rem;
+}
+.splide__arrow--next{
+  right: -1rem;
+}
+@media screen and (max-width: 768px) {
+    .splide__arrow{
+      display: none;
+    }
+}
+.imag-post{
+    margin-top: 40px;
+}
+.card-post{
+  position: relative;
+  border-radius: 40px;
+  background: rgb(250,250,250);
+  padding: 1.2rem;
+  border: 1rem white solid;
+}
+.card-post:hover{
+  background: rgb(240,240,240);
+}
+
+#fo{
+  text-align: center;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+}
+.f{
+  font-weight: 700;
+  font-size: 8rem;
+  margin: 0.2rem;
+}
+#fl{
+  position: relative;
+  max-height: 7.2rem;
+  top: 2rem;
+  margin-left: 0.5rem;
+}
+.screen-reader-text {
+  display: none;
+}
+.k{
+  margin-bottom: 30px;
+}
+.page-numbers {
+	display: inline-block;
+	padding: 5px 10px;
+	margin: 0 2px 0 0;
+	border: 1px solid #eee;
+	line-height: 1;
+	text-decoration: none;
+	border-radius: 2px;
+	font-weight: 600;
+}
+.page-numbers.current,
+a.page-numbers:hover {
+	background: rgb(230,230,230);
+}
+
+footer{
+    color: rgb(40,40,40);
+    text-align: center;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    overflow-x: hidden;
+    display: inline-block;
+    position: fixed;
+    bottom: 0;
+    background: rgb(230,230,230);
+    max-width: 100%;
+}
+
+.splide{
+  max-height: 70%;
+}
+
+.splide__arrow{
+  background: rgba(0,0,0,0);
+}
+
+.splide__pagination__page.is-active{
+  background: rgba(0,0,0,1);
+}
+
+.cont-left{
+  flex-direction: column;
+}
+
+.imgsing{
+  width: 100%;
+  margin-top: 3rem;
+}
+footer a, h5{
+    color: rgb(40,40,40);
+    font-size: 1rem;
+    margin-bottom: 0;
+}
+/*#f5ba09;*/
